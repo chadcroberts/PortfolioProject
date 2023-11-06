@@ -160,10 +160,11 @@ Group By FuelType
 Order By Qty DESC
 
 
-/* Which SUV has */
+/* Which gasoline engine SUV has highest ratings? */
 
 Select CarMake, CarModel, Horsepower, [Mileage(MPG)], [Price($)], RatingsOutOf5
 From PortfolioProject.dbo.CarDatasetv1_clean
 Where BodyType = 'SUV' and FuelType = 'Gasoline'
-Order By RatingsOutOf5 Desc
+Order By RatingsOutOf5 Desc, [Mileage(MPG)] Desc, [Price($)] Asc
+/*Order By RatingsOutOf5 Desc*/
 /*Order By [Mileage(MPG)] Desc, [Price($)] Asc*/
