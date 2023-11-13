@@ -1,6 +1,7 @@
 # PortfolioProject
 
 Summary of data studies:
+
 2023 New Car Data - SQL Server Data Cleaning and Exploration
 Goal: Review data, eliminate duplicates and records with missing data, and query data after cleaning to find meaningful comparisons.
 
