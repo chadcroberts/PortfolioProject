@@ -1,16 +1,11 @@
 # PortfolioProject
 
-Car Data in SQL
-Analyze new car data from the following location: https://www.kaggle.com/datasets/anoopjohny/2023-cars-dataset/data
+Summary of data studies:
+2023 New Car Data - SQL Server Data Cleaning and Exploration
+Goal: Review data, eliminate duplicates and records with missing data, and query data after cleaning to find meaningful comparisons.
 
-Review and clean table imported from downloaded csv file to summarize fuel, make/model, price, and ratings data.
+Nintendo Switch Games - Python Data Cleaning, Exploration, and Visualization
+Goal: Review Nintendo Switch game review data, clean data as necessary by filling null entries with relevant data, and find top game titles for different types of gameplay based on user ratings - i.e. genre, number of players.
 
-Find duplicate records and write data without duplicates into a new table.  Using ROW_NUMBER() OVER/PARTITION BY, increment
-number of records with same attributes.  Then delete all records with row number > 1.
-
-Remove all records with invalid sales figures.
-
-Convert varchar data for accelration and ratings to numeric for ranking these attributes.
-
-After cleaning table, make a few queries - min/max price by car type, show top selling cars in descinding order, 
-summarize cars by fuel type and ratings.
+Global Internet Usage - Python Data Cleaning, Exploration, and Visualization
+Goal: Review global internet usage for all reporting countries between 1980-2020 and include a country/continent reference to summarize data by continents.  Clean data as necessary by filling null entries with relevant data, and describe internet usage trends for countries with highest internet usage by continent.
